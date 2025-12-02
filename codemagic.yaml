@@ -7,7 +7,7 @@ workflows:
           - certificate_credentials # <-- (CERTIFICATE_PRIVATE_KEY)
         vars:
           XCODE_PROJECT: "Bingo Farm Land.xcodeproj"
-          XCODE_SCHEME: "project"
+          XCODE_SCHEME: "Bingo Farm Land"
           BUNDLE_ID: "com.bingoland.farm"
           APP_STORE_APPLE_ID: 6756016419
         xcode: latest
